@@ -12,7 +12,13 @@ public class AlunosCadastro {
         alunos02.nome = "Josiane";
         alunos03.nome = "Gabriel";
 
-       alunos01.Mostrar();
+        alunos01.idade = 19;
+        alunos02.idade = 25;
+        alunos03.idade = 20;
+
+        alunos01.Mostrar();
+        alunos02.Mostrar();
+        alunos03.Mostrar();
 
     }
 }
