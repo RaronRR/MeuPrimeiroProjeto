@@ -23,7 +23,7 @@ public class Produto {
                 System.out.println(quantidade + " vedida com sucesso");
                 System.out.println("Quantidade atual: " + quantidadeEmEstoque);
             }else {
-                System.out.println("Quantidade indisponivel " + quantidadeEmEstoque);
+                System.out.println("Quantidade indisponivel, não temos unidade o suficiente do produto ");
             }
 
 

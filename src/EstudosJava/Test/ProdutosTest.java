@@ -11,8 +11,8 @@ public class ProdutosTest {
         produto01.quantidadeEmEstoque = 10;
 
         produto01.exibirInformacoes();
-        produto01.reporEstoque(10);
-        produto01.vender(21);
+        produto01.reporEstoque(0);
+        produto01.vender(11);
 
 
     }
